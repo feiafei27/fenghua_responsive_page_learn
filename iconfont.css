@@ -1,0 +1,24 @@
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_2405589_qbigogli7pc.eot?t=1615168894186'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_2405589_qbigogli7pc.eot?t=1615168894186#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMgAAsAAAAABvwAAALUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCfgqBaIFzATYCJAMMCwgABCAFhG0HOhs1BsgusG3Yk4AIgQKqrKlgd5IPiIdq7Pf2blFPkEQTQ/fMkEiq06H9SoJWyKRC9mzt/++a/iELk1cJKAeE8qBNCpzLAFjoEqsZ17mCGklAoVpUuwUfXwCX/3O4tOkLZH6gXOaaFPUCjLcGtDe2yQrkRP2GsQte4GUCnSYolWwOTy5CtWTPCsStxSRAdcEtJYu1C60NG1M8QYv28lCaAR6j38c3LEU7RUtlL9w+HzJC7xu8RVmj2LAbIICznBFsGxWLQBI7jeFtZYIRy3SGy02CY40K3qLY5E3wH09IFEG0srO7wSyKFN547EwSkPvEFRW0+oTeVeBugRdR1LGe7u68j1zJlzPZ2nx+uVBYyeWWDrK9S9GDrats9qDArNrzeUOLOZtd1gXLsWDRPNCAZ0nn61Z0Mur1apms6yH/5bOj/O/jyv8u7pKxMq83Pi5bQItXs/P3XpcRFizAYY3Hyw7x4HgCnvZjZW9vZdGyWCCMIWbGhAyYGHVcmk6X+oITyoQszICCYxi4t7a3/7hboBegub6XWeDUf/LfoeSaOn/auxK83oT2og3NCbUBtCsM5vxczsCaNHi2pqbG9tiWtZq8WWMBMrlNk20f9DxdPvISxtBe4DAo2oxD1W4SmdhFaNFlGVq1W4FOC0a2dxlClYnswLxTAKFfGopeL1D1e0Qm9glajPqGVv1RodNOtB3YZTquagcoFhg2InETWQwuJ3F1rDbOncemVbtA87yItIypZPEhnVpbjo1gJ6ZLLJHWTHrGCCLU5UDD4Dpst7uQm7qs2MDUZsbc7RoNafqQ2uByQK0NFCZgMCNEtAmxMHBxIkFjprby/XmYySo7Ae2oqtMvwyiJpX9ER007ADkidg6qepRbJGtM9BiGQAjKxQEZBkbM7oRdEHfzOCvMgFEzTwi6tdOgemSoWL291PF/m6CTfVCNEjVS64lZsAnOKgkLNDXpAAA=') format('woff2'),
+    url('//at.alicdn.com/t/font_2405589_qbigogli7pc.woff?t=1615168894186') format('woff'),
+    url('//at.alicdn.com/t/font_2405589_qbigogli7pc.ttf?t=1615168894186') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_2405589_qbigogli7pc.svg?t=1615168894186#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconchakan:before {
+    content: "\e601";
+}
+
+.iconsearch1:before {
+    content: "\e600";
+}
