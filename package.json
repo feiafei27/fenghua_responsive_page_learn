@@ -1,0 +1,28 @@
+{
+  "name": "fenghua_responsive_page_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feiafei27/fenghua_responsive_page_learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feiafei27/fenghua_responsive_page_learn/issues"
+  },
+  "homepage": "https://github.com/feiafei27/fenghua_responsive_page_learn#readme",
+  "devDependencies": {
+    "css-loader": "^5.1.1",
+    "node-sass": "^4.0.0",
+    "sass-loader": "^9.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
