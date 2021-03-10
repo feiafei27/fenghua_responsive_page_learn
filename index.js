@@ -108,7 +108,7 @@ window.addEventListener("scroll", () => {
   const top = dataSectionEl.getBoundingClientRect().top
 
   if(bottom >= 0 && top <= window.innerHeight){
-    dataSectionEl.style.backgroundPosition = `center calc(50% - ${bottom / 5}px)`
+    dataSectionEl.style.backgroundPosition = `center calc(50% - ${bottom / 10}px)`
   }
 })
 
@@ -117,6 +117,11 @@ const scroll = new SmoothScroll('nav a[href*="#"], .scrollToTop a[href*="#"]', {
   header: "header",
   offset:80
 })
+document.addEventListener("scrollStart", () => {
+  if(headerEl.classList.contains("open")){
+    headerEl.classList.remove("open")
+  }
+})
 
 // 探索更多按钮点击滚动的效果
 const exploreBtnEls = document.querySelectorAll(".explore-btn")
@@ -124,6 +129,12 @@ exploreBtnEls.forEach(exploreBtnEl => {
   exploreBtnEl.addEventListener("click", () => {
     scroll.animateScroll(document.querySelector("#about-us"))
   })
+})
+
+// 折叠按钮的点击
+const burgerEl = document.querySelector(".burger")
+burgerEl.addEventListener("click", () => {
+  headerEl.classList.toggle("open")
 })
 
 
