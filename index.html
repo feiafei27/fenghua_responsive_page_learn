@@ -9,15 +9,15 @@
 <body>
 
 <!--头部-->
-<header>
+<header class="open">
   <div class="logo">峰华科技</div>
   <nav>
-    <a href="#">首页</a>
-    <a href="#">关于我们</a>
-    <a href="#">成功案例</a>
-    <a href="#">服务流程</a>
-    <a href="#">团队介绍</a>
-    <a href="#">公司动态</a>
+    <a href="#home">首页</a>
+    <a href="#about-us">关于我们</a>
+    <a href="#showcases">成功案例</a>
+    <a href="#service">服务流程</a>
+    <a href="#team-intro">团队介绍</a>
+    <a href="#company-activities">公司动态</a>
     <i class="iconfont iconchakan"></i>
   </nav>
   <div class="burger">
@@ -28,7 +28,7 @@
 </header>
 
 <!--轮播图-->
-<div class="glide">
+<div id="home" class="glide">
   <div class="glide__track" data-glide-el="track">
     <div class="glide__slides">
       <div class="glide__slide">
@@ -69,7 +69,7 @@
 <!--内容区域-->
 <div class="content-wrapper">
   <!--关于我们-->
-  <section class="about-us">
+  <section id="about-us" class="about-us">
     <h2 class="title1">关于我们</h2>
     <p class="intro">
       网络公司不仅仅是提供域名注册、空间租用、网站开发、网站建设与网络营销活动策划相关的企业组织
@@ -109,7 +109,7 @@
   </section>
 
   <!--成功案例-->
-  <section class="showcases section-bg">
+  <section id="showcases" class="showcases section-bg">
     <h2 class="title1">成功案例</h2>
     <div class="filter-btns">
       <button class="filter-btn active" data-filter="*">ALL</button>
@@ -146,7 +146,7 @@
   </section>
 
   <!--服务流程-->
-  <section class="service">
+  <section id="service" class="service">
     <h2 class="title1">服务流程</h2>
     <p class="intro">
       网络综合公司，提供包括网络基础服务（如域名、主机、邮箱）和网络增值服务（如网站建设和推广、网站优化）等业务
@@ -186,7 +186,7 @@
   </section>
 
   <!--团队介绍-->
-  <section class="team-intro section-bg">
+  <section id="team-intro" class="team-intro section-bg">
     <h2 class="title1">团队介绍</h2>
     <div class="team-members">
       <div class="team-member">
@@ -271,7 +271,7 @@
   </section>
 
   <!--公司动态-->
-  <section class="company-activities">
+  <section id="company-activities" class="company-activities">
     <h2 class="title1">公司动态</h2>
     <p class="intro">关注公司动态，第一时间获取一手消息</p>
     <div class="activities">
@@ -338,7 +338,81 @@
     </div>
   </section>
 </div>
+<!--底部信息-->
+<footer>
+  <div class="footer-menus">
+    <div class="contact-us">
+      <p class="menu-title">联系我们</p>
+      <p>地址：中国xx省xx市xx路xx商务中心10号楼</p>
+      <p>电话：+1412415334142351</p>
+      <p>传真：+1412415334142351</p>
+      <p>电子邮箱：admin@xxxxx.com</p>
+    </div>
+    <div class="service-menu footer-menu">
+      <p class="menu-title">服务概览</p>
+      <ul class="menu-items">
+        <li><a href="#">网站建设</a></li>
+        <li><a href="#">网页设计</a></li>
+        <li><a href="#">域名购买</a></li>
+        <li><a href="#">移动应用</a></li>
+      </ul>
+    </div>
+    <div class="showcase-menu footer-menu">
+      <p class="menu-title">成功案例</p>
+      <ul class="menu-items">
+        <li><a href="#">桌面网站</a></li>
+        <li><a href="#">移动网站</a></li>
+        <li><a href="#">科研项目</a></li>
+        <li><a href="#">软件应用</a></li>
+      </ul>
+    </div>
+    <div class="activity-menu footer-menu">
+      <p class="menu-title">公司动态</p>
+      <ul class="menu-items">
+        <li><a href="#">信息公开</a></li>
+        <li><a href="#">最近新闻</a></li>
+        <li><a href="#">最新博客</a></li>
+      </ul>
+    </div>
+    <div class="help-menu footer-menu">
+      <p class="menu-title">帮助与支持</p>
+      <ul class="menu-items">
+        <li><a href="#">帮助中心</a></li>
+        <li><a href="#">联系客服</a></li>
+        <li><a href="#">文档资源</a></li>
+      </ul>
+    </div>
+    <p class="icp-info">京ICP备 132412343523-1 号</p>
+    <p class="rights">
+      &copy; 2020 峰华科技 - 响应式网络公司官网 版权所有
+    </p>
+    <div class="scrollToTop">
+      <a href="#home">
+        <i class="iconfont iconup-fill"></i>
+      </a>
+    </div>
+  </div>
+</footer>
 
 <script src="./bundle.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
